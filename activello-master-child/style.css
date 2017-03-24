@@ -10,12 +10,14 @@
 
 
 .jumbotron-info h3{
-	bottom:750px;
+	bottom:1050px;
 	position:relative;
 	text-align: center;
-
+	background-color: black;
+	color: white;
+	opacity: .75;
+	padding: 10px;
 	font-size:300%;
-	color:#e6ac00;
 	text-shadow:
     -1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -46,8 +48,12 @@ a:hover{
 display:none;
 }
 
-.page.page-id-5 #logo, .page.page-id-237 #logo, .page.page-id-327 #logo, .single #logo, .single .entry-meta, .archive #logo, .archive .page-title, #colophon{
+ #logo, .single .entry-meta, .archive .page-title, #colophon{
 	display:none;
+}
+
+.page.page-id-7 #logo{
+	display:block;
 }
 
 #page-title-sub{
@@ -59,7 +65,6 @@ display:none;
 	background-color: #ffffff;
 	padding:30px;;
 	position:relative;
-
 }
 
 .post-categories a{
@@ -76,6 +81,11 @@ display:none;
 .flexslider .slides img{
 	width:100%;
 }
+
+.slider-item{
+	height:773px;
+}
+
 
 .flex-caption {
 	font-size:250%;
@@ -147,11 +157,8 @@ display:none;
 	line-height:2em;
 	padding:10px;
 }
-
  .owl-nav{
-	top: -75px;
-	position:relative;
-	height:50px;
+display: none;
 
  }
 .owl-prev{
@@ -170,15 +177,28 @@ display:none;
 	/*Mobile CSS - Title adjustment for mobile screens----------------------------------------------------------------------------*/
 @media only screen and (max-width: 481px) {
 
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+	.page-id-7 #content{
+		position: relative;
+		top:-50px;
+		padding: 0px 10px;
+	}
+
 	.jumbotron-info{
 		bottom:250px;
 		font-size:50%;
 		position: relative;
+
 	}
 
 	h3.jumbotron-title{
 		position:relative;
 		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
 	}
 
 	.owl-carousel.featured-jumbotron .owl-item.active{
@@ -212,6 +232,45 @@ display:none;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 500px) {
+
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+
+	.page-id-7 #content{
+		position: relative;
+		top:-180px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area{
+		position: relative;
+		top:0px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1000px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
 	.slide-info{
 	bottom:130%;
 	position:relative;
@@ -238,9 +297,116 @@ display:none;
 
 }
 
+@media only screen and (min-width: 501px) and (max-width: 600px) {
 
-@media only screen and (min-width: 501px)
-and (max-width: 700px) {
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+
+	.page-id-7 #content{
+		position: relative;
+		top:-100px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area{
+		position: relative;
+		top:90px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1000px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
+
+	.slide-info{
+	bottom:300%;
+	position:relative;
+	height:auto;
+	background-color:black;
+	color:white;
+	opacity:.75;
+	font-size:5px;
+	text-align:center;
+	line-height:1px;
+		display:block;
+	font-size:50%;
+	padding:2px;
+	}
+
+	#logo .tagline {
+		font-size:150%;
+		line-height:100%;
+		font-weight:bolder;
+	}
+
+.flex-caption{
+	display:block;
+	font-size: 50%;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+
+	.page-id-7 #content{
+		position: relative;
+		top:-20px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area{
+		position: relative;
+		top:90px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1000px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
+
 	.slide-info{
 	bottom:300%;
 	position:relative;
@@ -270,9 +436,106 @@ and (max-width: 700px) {
 
 }
 
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
 
-@media and (min-width: 701px)
-and (max-width: 980px) {
+	.page-id-7#content {
+		position: relative;
+		top:0px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area {
+		position: relative;
+		top:50px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1100px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
+
+	.slide-info{
+	bottom:390%;
+	position:relative;
+	height:auto;
+	background-color:black;
+	color:white;
+	opacity:.75;
+	font-size:5px;
+	text-align:center;
+	line-height:1px;
+	font-size:50%;
+	padding:2px;
+	}
+
+	.flex-caption{
+	display:block;
+		font-size: 50%;
+	}
+}
+@media only screen and (min-width: 801px) and (max-width: 980px) {
+
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+
+	.page-id-7 #content {
+		position: relative;
+		top:0px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area {
+		position: relative;
+		top:0px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1400px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:-75px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
+
 	.slide-info{
 	bottom:390%;
 	position:relative;
@@ -291,10 +554,70 @@ and (max-width: 980px) {
 	display:block;
 		font-size: 50%;
 }
-
-
 }
 
-/*Anything desktop screen size----------------------------------------------------------------------------*/
-@media screen and (min-width: 981px) {
+
+@media only screen and (min-width: 981px) and (max-width: 1401px) {
+
+	.page-id-7 .owl-carousel
+	.navbar-default .navbar-nav > li > a{
+		padding-left:5px;
+	}
+
+	.page-id-7 #content {
+		position: relative;
+		top:150px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #footer-area {
+		position: relative;
+		top:0px;
+		padding: 0px 10px;
+		font-size: 110%;
+	}
+
+	.page-id-7 #page{
+		height: 1600px;
+	}
+
+	.jumbotron-info{
+		bottom:250px;
+		font-size:50%;
+		position: relative;
+
+	}
+
+	h3.jumbotron-title{
+		position:relative;
+		bottom:100px;
+		background-color: black;
+		color: white;
+		opacity: .75;
+	}
+
+
+	.slide-info{
+	bottom:390%;
+	position:relative;
+	height:auto;
+	background-color:black;
+	color:white;
+	opacity:.75;
+	font-size:5px;
+	text-align:center;
+	line-height:1px;
+	font-size:50%;
+	padding:2px;
+	}
+
+.flex-caption{
+	display:block;
+		font-size: 50%;
+}
+}
+
+
+@media only screen and (min-width: 1401px) {
 }
