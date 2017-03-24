@@ -115,7 +115,7 @@
     <div class="owl-carousel featured-jumbotron">
 
       <?php
-        echo do_shortcode('[pods name="jumbotron" template="Jumbotron (standard)" where="jumbotronsyndication.slug=\'home-first-gen\'"]');
+        echo do_shortcode('[pods name="jumbotron" template="Jumbotron (standard)" where="jumbotronsyndication.slug=\'homepage-blackhistorymonth\'"]');
         ?>
 
     </div>
